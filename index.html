@@ -10,34 +10,31 @@
         crossorigin="anonymous">
     <title>Todos - Projekt</title>
 </head>
-
 <body>
     <div class="main-wrapper">
-        <h1>todos</h1>
+      <h1>todos</h1>
         <div class="wrapper-todo-list">
             <div class="todo-input-field">
                 <i class="fas fa-angle-down arrow-down"></i>
                 <input type="text" placeholder="What needs to be done?">
             </div>
-            <ul class="todo-list-items">
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135">
-                        <circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3" /></svg>
-                    Milch</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135">
-                        <circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3" /></svg>
-                    Wasser<button>&times;</button></li>
-                <li class="active"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135">
-                        <circle cx="50" cy="50" r="50" fill="none" stroke="#bddad5" stroke-width="3" />
-                        <path fill="#5dc2af" d="M72 25L42 71 27 56l-4 4 20 20 34-52z" /></svg>
-                    Orangensaft</li>
-                <li><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="-10 -18 100 135">
-                        <circle cx="50" cy="50" r="50" fill="none" stroke="#ededed" stroke-width="3" /></svg>
-                    Brot</li>
-            </ul>
+                <ul class="todo-list">
+                    <li><input type="checkbox">
+                        Milch</li>
+                    <li><input type="checkbox">
+                        Wasser<button>&times;</button></li>
+                    <li class="active"><input type="checkbox">
+                        Orangensaft</li>
+                    <li><input type="checkbox">
+                        Brot</li>
+                    <li><input type="checkbox">
+                        Butter</li>
+                </ul>
             <div class="left-items">
                 <p>3 Items left</p>
             </div>
         </div>
+    </div>
 
 </body>
 
