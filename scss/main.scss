@@ -49,11 +49,13 @@ body {
             width: 400px;
             border: none;
             height: 45px;
+            font-size: 24px;
         }
 
         ::placeholder {
             font-style: italic;
             color: lightgray;
+            font-size: 15px;
         }
     }
 

@@ -40,10 +40,12 @@ body {
   width: 400px;
   border: none;
   height: 45px;
+  font-size: 24px;
 }
 .main-wrapper .todo-input-field ::placeholder {
   font-style: italic;
   color: lightgray;
+  font-size: 15px;
 }
 .main-wrapper .arrow-down {
   font-size: 16px;
